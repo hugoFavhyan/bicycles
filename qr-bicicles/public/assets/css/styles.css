@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+.logo {
+    margin-bottom: 20px;
+}
+.logo img {
+    max-width: 150px;
+}
+h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #343a40;
+}
+p {
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    position: relative;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #495057;
+}
+input[type="email"], input[type="password"], input[type="text"] {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+.form-group i {
+    position: absolute;
+    left: 15px;
+    top: 40px;
+    color: #6c757d;
+}
+button {
+    padding: 10px 15px;
+    background-color: #fd7e14;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+.links {
+    margin-top: 20px;
+}
+.links a {
+    color: #fd7e14;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+.alert {
+    padding: 10px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
